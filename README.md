@@ -1,1 +1,8 @@
-# classiii
+# Early Diagnosis and Prediction of Skeletal Class III Malocclusion from Profile Photos
+
+
+
+Among skeletal deformities, Class III is the one in which orthodontics gives more importance to timing compared to Class I or Class II, because growth modification is possible only before a pubertal growth spurt. When class III malocclusion is diagnosed late, it is challenging to treat with braces frequently requiring surgical intervention. In this study, we assessed the potential of a computational model for detecting Class III Malocclusion using the profile images of patients. The main purpose of our project is to develop this model into a mobile application for parents seeking guidance on whether to reach out to an orthodontist at an early stage of developmental bone growth with a warning of Class III malocclusion risk. For detecting Class III malocclusion by discriminating the skeletal status from each other, we utilized several different angles from literature to mark the points on the profile, which are G, Prn, Sn, Ls, Li, Sm, and Pg. In this study, a test dataset consisting of 60 profile images of patients is used to evaluate the performance of several different heuristic criteria. We devised three heuristic methods to evaluate our patient test data performance. If the calculated angles match Class III angle mean+-standard deviation intervals in all three methods, patients are categorized as “Class III”. If the angles are outside the standard deviation intervals, we assigned the category as “not Class III”. The most successful method so far was the third method, categorizing the 49/60 images correctly (85% in Class I, 100% in Class II, and 60% in Class III).
+
+
+Published work: https://www.researchgate.net/publication/340539149_Early_Diagnosis_and_Prediction_of_Skeletal_Class_III_Malocclusion_from_Profile_Photos_Using_Artificial_Intelligence
